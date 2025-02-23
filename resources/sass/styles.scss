@@ -1,0 +1,274 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 50px;
+}
+
+h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 12px; 
+    font-size: 1.1rem; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.bg-blue-600 {
+    background-color: #3b82f6;
+    padding: 7px;
+}
+
+.bg-blue-600:hover {
+    background-color: #2563eb;
+}
+
+.bg-yellow-500 {
+    background-color: #f59e0b;
+}
+
+.bg-yellow-500:hover {
+    background-color: #d97706;
+}
+
+.bg-red-600 {
+    background-color: #dc2626;
+}
+
+.bg-red-600:hover {
+    background-color: #b91c1c;
+}
+
+.btn-outline-success {
+    height: 80px;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-gray-600 {
+    color: #4b5563;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem;
+}
+
+.mt-4 {
+    margin-top: 1rem;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+
+.table th,
+.table td {
+    padding: 13px; 
+    border: 1px solid #dee2e6;
+    text-align: left;
+    font-size: 0.9rem; 
+}
+
+.table th {
+    background-color: #f8f9fa;
+    padding: 10px; 
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2;
+}
+
+.form-control {
+    margin-top: -50px;
+    width: 520px;
+    height: 45px; 
+    margin-left: 260px;
+    font-size: 1.1rem; 
+    border-radius: 10px;
+    border: 2px solid #a2a5aa;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    border-color: #3b82f6; 
+    outline: none;
+    margin-top: 30px;
+}
+
+.toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background-color: #fff; 
+    color: #333; 
+    border: 1px solid #28a745; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    padding: 15px; 
+    font-size: 16px; 
+    transition: opacity 0.5s; 
+    opacity: 0; 
+}
+
+.show {
+    opacity: 1; 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header input {
+    width: 700px;
+    border-radius: 20px;
+    border: 1px solid #ced4da;
+}
+
+.header .btn {
+    border-radius: 20px;
+    height: 50px;
+    font-size: 16px;
+}
+.language-selector {
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    margin-left:-1020px;
+    
+}
+.btn-custom {
+    width: 100%; 
+    max-width: 150px; 
+    height: 50px;
+    border-radius: 10px;
+    background-color: #3b82f6; 
+    color: white;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; 
+    transition: background-color 0.3s ease; 
+}
+
+.btn-custom:hover {
+    background-color: #2563eb; 
+}
+
+@media (max-width: 600px) {
+    .btn-custom {
+        width: 90%; 
+    }
+}
+
+.form-select {
+    width: 150px; 
+    padding: 10px 15px 10px 10px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+    background-color: #f8f9fa; 
+    color: #333;
+    font-size: 16px; 
+    transition: border-color 0.3s ease; 
+}
+
+.form-select:focus {
+    border-color: #007bff; 
+    outline: none; 
+}
+
+.form-select option {
+    padding: 10px; 
+    background-color: #fff; 
+    color: #333; 
+}
+
+.form-select option:hover {
+    background-color: #e9ecef;
+}
+
+@media (max-width: 600px) {
+    .form-select {
+        font-size: 14px; 
+    }
+}
+.toast {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 15px; 
+    width: 300px;
+}
+
+.toast-body {
+    margin-right: 10px; 
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .header input {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .btn {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .form-control {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .table th, .table td {
+        font-size: 0.8rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+}

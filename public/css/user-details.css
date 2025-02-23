@@ -1,0 +1,50 @@
+.container_detalis {
+  max-width: 80%;
+  height: auto;
+  margin: auto;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .btn {
+  position: absolute;
+  left: 20px;
+}
+
+.details {
+  margin-top: 50px;
+}
+
+.image-container {
+  margin-top: 10px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.icon-button {
+  font-size: 2rem;
+  vertical-align: middle;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 160px;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+}
+
+h3, h5, label {
+  font-family: "Verdana", sans-serif;
+}
